@@ -20,4 +20,3 @@ public class Fit {
         System.out.println("Woman 165 is" + woman);
     }
 }
-
