@@ -16,9 +16,9 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHasNotNum() {
-        int[] data = {5, 4, 3, 2};
-        int el = 0;
+    public void whenArrayHasNot10ThenMinus1() {
+        int[] data = {7, 6, 5, 4};
+        int el = 10;
         int result = FindLoop.indexOf(data, el);
         int expected = -1;
         Assert.assertEquals(expected, result);
