@@ -1,7 +1,7 @@
 package ru.job4j.array;
+
 import org.junit.Test;
 import  org.junit.Assert;
-
 public class SortSelectedTest {
     @Test
     public void whenSort() {
